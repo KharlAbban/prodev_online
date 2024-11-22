@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getRegionInsights = async (regionName) => {
     try {
-        const {data} = await axios.get(`http://localhost:4000/insights/region/${regionName}`);
+        const {data} = await axios.get(`"https://prodev-server.vercel.app/insights/region/${regionName}`);
 
         return data;
 

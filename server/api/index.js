@@ -9,7 +9,10 @@ const { regionNames, regionDataObject, popByAgegroup } = require("./constants/re
 const app = express();
 const PORT_NO = process.env.PORT;
 
-app.use(cors());
+app.use(cors({
+    origin: "https://prodev-psi.vercel.app/",
+    credentials: true
+}));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(morgan("dev"));

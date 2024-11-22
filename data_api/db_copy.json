@@ -1,0 +1,684 @@
+{
+  "country": {
+    "id": "GH",
+    "name": "Ghana",
+    "population": {},
+    "jobs": {},
+    "health": {}
+  },
+  "regions": {
+    "western" : {
+      "id": "WR",
+      "name": "Western",
+      "population": {
+        "total": 2060585,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "central" : {
+      "id": "CR",
+      "name": "Central",
+      "population": {
+        "total": 2859821,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "greater_accra" : {
+      "id": "GAR",
+      "name": "Greater Accra",
+      "population": {
+        "total": 5455692,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "volta" : {
+      "id": "VR",
+      "name": "Volta",
+      "population": {
+        "total": 1659040,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "eastern" : {
+      "id": "ER",
+      "name": "Eastern",
+      "population": {
+        "total": 2925653,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "ashanti" : {
+      "id": "AR",
+      "name": "Ashanti",
+      "population": {
+        "total": 5440463,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "western_north" : {
+      "id": "WNR",
+      "name": "Western North",
+      "population": {
+        "total": 880921,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "ahafo" : {
+      "id": "AHR",
+      "name": "Ahafo",
+      "population": {
+        "total": 564668,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "bono" : {
+      "id": "BR",
+      "name": "Bono",
+      "population": {
+        "total": 1208649,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "bono_east" : {
+      "id": "BER",
+      "name": "Bono East",
+      "population": {
+        "total": 1203400,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "oti" : {
+      "id": "OR",
+      "name": "Oti",
+      "population": {
+        "total": 747248,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "northern" : {
+      "id": "NR",
+      "name": "Northern",
+      "population": {
+        "total": 2310928,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "savannah" : {
+      "id": "SR",
+      "name": "Savannah",
+      "population": {
+        "total": 653277,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "north_east" : {
+      "id": "NER",
+      "name": "North East",
+      "population": {
+        "total": 658946,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "upper_east" : {
+      "id": "UER",
+      "name": "Upper East",
+      "population": {
+        "total": 1301226,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    },
+    "upper_west" : {
+      "id": "UWR",
+      "name": "Upper West",
+      "population": {
+        "total": 901502,
+        "age_group": {
+          "child": 120,
+          "youth_adult": 120,
+          "elderly": 120
+        },
+        "urban": 3000,
+        "rural": 2000,
+        "urban_rural_ratio": 70,
+        "land_area": 143.76,
+        "density": 200
+      },
+      "jobs": {
+        "unemployment_rate": 5.0,
+        "employment_sector_distribution": {
+          "public": 20,
+          "semi_public": 20,
+          "private_formal": 20,
+          "private_informal": 20,
+          "local_ngo_cso": 20,
+          "intl_ngo_cso": 20,
+          "religious_org_local": 20,
+          "religious_org_intl": 20,
+          "intl_org": 20
+        }
+      },
+      "health": {
+        "avg_distance_to_facility": 5,
+        "num_facilities": 120,
+        "facility_breakdown": {
+          "hospital": 10,
+          "clinic": 50,
+          "polyclinic": 50,
+          "chps_compound": 60
+        },
+        "maternity_homes": 100
+      }
+    }
+  },
+  "districts": []
+}

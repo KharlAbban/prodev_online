@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const getRegionDetails = async (regionName) => {
     try {
-        const regionDetail = await axios.get(`http://localhost:3000/regions/${regionName}`);
+        const regionDetail = await axios.get(`https://prodev-data.vercel.app//regions/${regionName}`);
 
         return regionDetail.data;
         

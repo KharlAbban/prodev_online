@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getAllRegionsScores = async () => {
     try {
-        const {data} = await axios.get("http://localhost:4000/score/regions");
+        const {data} = await axios.get("https://prodev-server.vercel.app/score/regions");
 
         const scores = data.scores;
 
@@ -15,7 +15,7 @@ export const getAllRegionsScores = async () => {
 
 export const getOneRegionScore = async (regionName) => {
     try {
-        const {data} = await axios.get(`http://localhost:4000/score/region/${regionName}`);
+        const {data} = await axios.get(`https://prodev-server.vercel.app/score/region/${regionName}`);
 
         const scoreInfo = data.scores;
 
